@@ -30,7 +30,6 @@ client.on('auth_failure', msg => {
 
 client.on("ready", () => {
   console.log("Client is ready!");
-  client.sendMessage(`919797359032@c.us`, `Server started at ${new Date().toLocaleString()}.`);
 });
 
 client.on("message", (message) => {
